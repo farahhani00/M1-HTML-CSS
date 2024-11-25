@@ -1,0 +1,24 @@
+h1 {
+    text-align: left;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.green-word {
+    display: inline;
+    color: green;
+}
+
+.green-word.hidden {
+    display: none;
+}
+
+.image-container img {
+    float: left; 
+    margin-right: 10px;
+    width: 200px;
+    height: auto;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+
+    <form>
+        <label for="first-name">First Name</label><br>
+        <input type="text" id="first-name" name="first-name" maxlength="20" placeholder="20 letters only"><br><br>
+
+        <label for="last-name">Last Name</label><br>
+        <input type="text" id="last-name" name="last-name" maxlength="20" placeholder="20 letters only"><br><br>
+
+        <label>Region</label><br>
+        <input type="radio" id="asia" name="region" value="Asia">
+        <label for="asia">Asia</label>
+        <input type="radio" id="europe" name="region" value="Europe">
+        <label for="europe">Europe</label>
+        <input type="radio" id="north-america" name="region" value="North America">
+        <label for="north-america">North America</label>
+        <input type="radio" id="south-america" name="region" value="South America">
+        <label for="south-america">South America</label>
+        <input type="radio" id="africa" name="region" value="Africa">
+        <label for="africa">Africa</label><br><br>
+
+        <label>Coding Class</label><br>
+        <input type="checkbox" id="javascript" name="coding-class" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" id="python" name="coding-class" value="Python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="html-css" name="coding-class" value="HTML/CSS">
+        <label for="html-css">HTML/CSS</label><br><br>
+
+        <label for="coding-experience">Your coding experiences</label>
+        <select id="coding-experience" name="coding-experience">
+            <option value="no-experience">No Experiences</option>
+            <option value="some-experience">Some Experiences</option>
+            <option value="extensive-experience">Extensive Experiences</option>
+        </select><br><br>
+
+        <label for="comments">Any other comments for your application</label><br>
+        <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+    </form>
+</body>
+</html>
